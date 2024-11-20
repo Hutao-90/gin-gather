@@ -1,0 +1,16 @@
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/login","query_params":{"raw":"{\n    \"wallet_address\": \"0x7E09eD43B59829aABfED6864897BeDff2b1368e9\",\n    \"signature\": \"0xb961596580948decf5db308c1fa9e33888e9f47e088e36d025b092b847e26e375d22d40bc8de4554f7fb31716294d4b802711e64ac122d45db6768b7ada6923e00\",\n    \"message\": \"3dfdf\",\n    \"invite_code\": \"2222\"\n}"},"time":"2024-09-01T11:09:14+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/member/friend","query_params":{"raw":""},"time":"2024-09-01T11:09:24+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/member/attention/cancel","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T11:22:21+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/member/attention/cancel","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T22:31:54+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:20:42+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:22:55+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:22:57+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:24:18+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:26:34+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:26:36+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:28:43+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:28:44+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:30:23+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:30:25+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:31:17+04:00"}
+{"ip":"127.0.0.1","level":"info","method":"POST","msg":"Request received","path":"/marketplace/all","query_params":{"raw":"{\"member_id\":2}"},"time":"2024-09-01T23:31:46+04:00"}

@@ -1,0 +1,36 @@
+
+2024/09/02 00:12:06 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[1.535ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 00:12:06 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:22
+[0.552ms] [rows:2] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/02 00:12:08 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[0.854ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 00:12:08 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:22
+[0.495ms] [rows:2] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/02 00:12:09 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[0.626ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 00:12:09 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:22
+[0.497ms] [rows:2] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/02 20:36:34 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[12.002ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 20:37:06 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[0.726ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 20:37:07 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[0.776ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 22:26:51 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[1.786ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 22:52:15 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:115
+[1.450ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`magic_potion_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/02 22:52:15 /usr/local/var/www/go-project/debox-go/app/services/task_services.go:34
+[15.934ms] [rows:2] SELECT game_tasks.id, game_tasks.name, game_tasks.url, IF(game_task_logs.id IS NOT NULL, 1, 0) AS status FROM `game_tasks` LEFT JOIN game_task_logs ON game_tasks.id = game_task_logs.task_id AND game_task_logs.member_id = 1 ORDER BY game_tasks.id desc

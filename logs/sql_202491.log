@@ -1,0 +1,93 @@
+
+2024/09/01 11:09:14 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[1.457ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 11:09:24 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.617ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 11:09:24 /usr/local/var/www/go-project/debox-go/app/services/friendships_services.go:44
+[4.516ms] [rows:0] SELECT friend_id FROM `game_friendships` WHERE member_id =1 AND status>0 ORDER BY updated_at desc
+
+2024/09/01 11:22:21 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.875ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 11:22:21 /usr/local/var/www/go-project/debox-go/app/services/friendships_services.go:147 record not found
+[3.026ms] [rows:0] SELECT * FROM `game_friendships` WHERE member_id =1 and friend_id =2 and status >'0' ORDER BY `game_friendships`.`id` LIMIT 1
+
+2024/09/01 22:31:54 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.955ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 22:31:54 /usr/local/var/www/go-project/debox-go/app/services/friendships_services.go:148 record not found
+[0.577ms] [rows:0] SELECT * FROM `game_friendships` WHERE member_id =1 and friend_id =2 and status >'0' ORDER BY `game_friendships`.`id` LIMIT 1
+
+2024/09/01 23:20:42 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.715ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:20:42 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:11
+[0.353ms] [rows:1] SELECT id,name FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:22:55 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.737ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:22:55 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.371ms] [rows:1] SELECT id,name,type FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:22:57 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.992ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:22:57 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.488ms] [rows:1] SELECT id,name,type FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:24:18 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.617ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:24:18 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.428ms] [rows:1] SELECT id,name,type FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:26:34 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[1.435ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:26:34 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.342ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:26:36 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.682ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:26:36 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.336ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:28:43 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.553ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:28:43 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.255ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:28:44 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.819ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:28:44 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.417ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:30:23 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[1.523ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:30:23 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.363ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:30:25 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[0.874ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:30:25 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:16
+[0.407ms] [rows:1] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:31:17 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[1.154ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:31:17 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:17
+[0.276ms] [rows:2] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
+
+2024/09/01 23:31:46 /usr/local/var/www/go-project/debox-go/app/services/member_services.go:114
+[1.216ms] [rows:1] SELECT `game_members`.`id`,`game_members`.`debox_user_id`,`game_members`.`wallet_address`,`game_members`.`nick_name`,`game_members`.`avatar_url`,`game_members`.`type`,`game_members`.`nft_num`,`game_members`.`level`,`game_members`.`gold_num`,`game_members`.`diamond_num`,`game_members`.`status`,`game_members`.`created_at`,`game_members`.`updated_at`,`game_members`.`deleted_at` FROM `game_members` WHERE wallet_address ='0x7E09eD43B59829aABfED6864897BeDff2b1368e9' ORDER BY `game_members`.`id` LIMIT 1
+
+2024/09/01 23:31:46 /usr/local/var/www/go-project/debox-go/app/services/marketplace_services.go:17
+[0.280ms] [rows:2] SELECT id,name,type,value FROM `game_product_config` ORDER BY created_at desc
